@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://192.168.178.33:31112
+functions:
+  fibonacci:
+    lang: python3
+    handler: ./fibonacci
+    image: stevo2325/fibonacci:latest
+

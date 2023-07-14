@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://192.168.178.33:31112
+functions:
+  complex:
+    lang: python3
+    handler: ./complex
+    image: stevo2325/complex:latest
+
