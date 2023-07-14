@@ -1,7 +1,7 @@
 version: 1.0
 provider:
   name: openfaas
-  gateway: http://192.168.178.33:31112
+  gateway:
 functions:
   quicksort:
     lang: python3
