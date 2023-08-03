@@ -1,6 +1,6 @@
 # Program to display the Fibonacci sequence up to n-th term
 
-nterms = int(input())
+nterms = 100 # to read int use:    int(input())
 
 # first two terms
 n1, n2 = 0, 1
