@@ -7,4 +7,3 @@ functions:
     lang: python3
     handler: ./prime
     image: stevo2325/prime:latest
-
