@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway:
+functions:
+  factorial:
+    lang: python3
+    handler: ./function_files/factorial
+    image: stevo2325/factorial:latest
+

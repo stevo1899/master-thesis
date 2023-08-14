@@ -5,5 +5,5 @@ provider:
 functions:
   prime:
     lang: python3
-    handler: ./prime
+    handler: ./function_files/prime
     image: stevo2325/prime:latest

@@ -5,6 +5,6 @@ provider:
 functions:
   fibonacci:
     lang: python3
-    handler: ./fibonacci
+    handler: ./function_files/fibonacci
     image: stevo2325/fibonacci:latest
 
